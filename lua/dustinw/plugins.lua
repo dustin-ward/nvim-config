@@ -54,6 +54,7 @@ return require('packer').startup(function(use)
 			require("dustinw.configs.transparent")
 		end, 
 	})
+	use("tpope/vim-commentary")
 	--use({
 	--	"norcalli/nvim-colorizer.lua",
 	--	config = function()

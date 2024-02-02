@@ -50,4 +50,7 @@ map("i", "<C-l>", "<C-O>l")
 
 -- NeoTree
 map("n", "<C-n>", "<CMD>Neotree toggle<CR>")
---map("n", "<leader>o", "<CMD>Neotree focus<CR>")
+
+-- Commentary
+map("n", "<C-_>", "<Plug>CommentaryLine")
+map("v", "<C-_>", "<Plug>Commentary")
