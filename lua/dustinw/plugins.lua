@@ -65,6 +65,14 @@ return require('packer').startup(function(use)
 	--	tag = "0.1.1",
 	--	requires = { { "nvim-lua/plenary.nvim" } },
 	--})
+
+	-- LSP 	
+	use("onsails/lspkind-nvim")
+	use({
+		"L3MON4D3/LuaSnip",
+		-- follow latest release.
+		tag = "v<CurrentMajor>.*",
+	})
 	use({
 		"hrsh7th/nvim-cmp",
 		event = "InsertEnter",
