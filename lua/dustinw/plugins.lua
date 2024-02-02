@@ -90,5 +90,21 @@ return require('packer').startup(function(use)
 			require("dustinw.configs.lsp")
 		end,
 	})
+	use({
+		"jose-elias-alvarez/null-ls.nvim",
+		config = function()
+			require("dustinw.configs.null-ls")
+		end,
+		requires = { "nvim-lua/plenary.nvim" },
+	})
+
+	-- Go
+	use({
+		'ray-x/go.nvim',
+		config = function()
+			require("dustinw.configs.go")
+		end,
+	})
+	use('ray-x/guihua.lua')
 
 end)
