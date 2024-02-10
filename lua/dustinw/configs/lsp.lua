@@ -74,4 +74,9 @@ nvim_lsp.rust_analyzer.setup({
 	capabilities = capabilities,
 })
 
+-- Svelte
+nvim_lsp.svelte.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+})
 

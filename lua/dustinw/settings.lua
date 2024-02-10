@@ -13,6 +13,7 @@ o.syntax = "on"
 o.autoindent = true
 o.scrolloff = 8
 o.nowrap = true
+o.wrap = false
 o.hlsearch = true
 o.smartcase = true
 o.linebreak = true
