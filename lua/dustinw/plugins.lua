@@ -107,4 +107,7 @@ return require('packer').startup(function(use)
 	})
 	use('ray-x/guihua.lua')
 
+	-- asm
+	use({ 'rush-rs/tree-sitter-asm' })
+
 end)
