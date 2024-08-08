@@ -92,4 +92,10 @@ return {
     {
         "nyoom-engineering/oxocarbon.nvim",
     },
+    {
+        "eldritch-theme/eldritch.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    }
 }
