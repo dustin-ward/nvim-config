@@ -97,5 +97,11 @@ return {
         lazy = false,
         priority = 1000,
         opts = {},
-    }
+    },
+    {
+        "navarasu/onedark.nvim",
+    },
+    {
+        "slugbyte/lackluster.nvim",
+    },
 }

@@ -10,6 +10,8 @@ return {
             "kanagawa-dragon",
             "oxocarbon",
             "eldritch",
+            "onedark",
+            "lackluster",
         },                -- Your list of installed colorschemes.
         livePreview = true, -- Apply theme while picking. Default to true.
     }
